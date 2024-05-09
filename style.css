@@ -1,0 +1,49 @@
+.main-cont {
+    height: auto;
+    width: 100%;
+    padding: 30px 30px;
+    border-radius: 40px;
+}
+
+.hero-img {
+    border-radius: 40px;
+}
+
+#accordion-struct {
+    height: 450px;
+    overflow: auto;
+}
+
+::selection {
+    background: skyblue;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: skyblue;
+    --bs-tooltip-color: black;
+}
+
+@media screen and (width < 768px) {
+    .hero-img {
+        height: 200px;
+    }
+
+    .main-cont {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    #accordion-struct {
+        height: 200px !important;
+    }
+
+    .faq-sec {
+        padding: 0;
+    }
+
+    .faq-sec>h2 {
+        margin-top: 5px;
+    }
+}
